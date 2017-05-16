@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+<script>
+    var prenoms=['alfred'];
+var list=document.createElement('ul');
+
+var item;
+
+    for(var i=0; i<prenoms.length; i++){
+
+        if(prenoms[i].indexOf("a")!=-1){
+            item=document.createElement("li");
+            item.innerHTML= "<h3>"+prenoms[i]+"</h3>";
+            list.appendChild(item);
+        }
+    }
+document.body.appendChild(list);
+
+
+    var elements = document.querySelectorAll('h3');
+
+    for (var i = 0; i < elements.length; i++) {
+        (function(){
+            var el = elements[i]
+            setTimeout(function(){
+                el.style.color = 'red';
+
+            },1000*i)
+        })();
+    }
+</script>
+</body>
+</html>
+
+

@@ -1,0 +1,29 @@
+{
+    "produits": [
+        {
+            "titre":"basket",
+            "prix": "50"
+        },
+
+        {
+            "titre":"bottes",
+            "prix":"120"
+        },
+
+        {
+            "titre":"Tennis",
+            "prix":"350"
+        },
+
+        {
+            "titre":"Escarpins",
+            "prix":"1200"
+        },
+
+        {
+            "titre":"Tong",
+            "prix":"108520"
+        }
+
+    ]
+}

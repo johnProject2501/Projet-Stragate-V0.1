@@ -1,0 +1,4 @@
+[class*="col-"] {
+    border: solid 1px blue;
+    height: 50px;
+}
